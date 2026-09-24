@@ -2,16 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Embedded Systems Engineer at Infraeo Inc. M.S. in Electrical & Computer Engineering, Rice University.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Austin, TX</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an Embedded Systems Engineer at Infraeo Inc. in Round Rock, Texas. I build and execute the qualification test suite for 200G to 1.6T copper and optical modules, own the debug loop on BER and factory test data across silicon, firmware, and the physical layer, and develop Python hardware-in-the-loop tooling that drives BERT and programming boards over USB and I2C. I also proposed and built SPELL (Spec-to-Executable via LLM), an LLM-driven auto-correction system that grounds every check in the CMIS specification.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I hold an M.S. in Electrical & Computer Engineering from [Rice University](https://www.rice.edu/) (GPA 3.91/4.0) and a Bachelor & Master of Engineering in Integrated Circuit Engineering from [Tsinghua University](https://www.tsinghua.edu.cn/en/). At the Tsinghua LEMON Lab I worked on RRAM neuromorphic chips and was first author of a DATE 2021 paper on on-chip layer-wise regression to compensate array non-idealities. At Rice's Digital Health Lab I worked on speech signal processing and statistical analysis of physiological data. Before Infraeo, I was a Software Engineer at Xperf Inc., deploying a GPU observability platform (NVIDIA DCGM, Prometheus, Grafana) on GKE.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I have authored 6 papers and hold 3 Chinese patents and 1 U.S. patent. See my [CV]({{ '/cv/' | relative_url }}) for details, or download the [PDF resume]({{ '/assets/pdf/Yiwen_Geng_Resume.pdf' | relative_url }}).

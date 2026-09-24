@@ -1,189 +1,99 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Ada Yiwen Geng
+  label: Embedded Systems Engineer
+  email: gengyw15@gmail.com
+  location: Austin, TX
+  summary: "Embedded systems engineer at Infraeo Inc. with an M.S. in Electrical & Computer Engineering from Rice University and a Bachelor & Master of Engineering in Integrated Circuit Engineering from Tsinghua University. Experience spans qualification testing and root-cause debug of 200G to 1.6T copper and optical modules, Python hardware-in-the-loop test automation, GPU observability infrastructure, and RRAM compute-in-memory research. Author of 6 papers, including a first-author DATE 2021 paper, with 3 Chinese patents and 1 U.S. patent."
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
+      username: ada-yiwen-geng-2ba984239
+    - network: GitHub
+      username: yg72
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
+    city: Austin
+    region: TX
     countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Rice University
+        location: Houston, TX
+        url: https://www.rice.edu/
+        area: Electrical & Computer Engineering
+        degree: Master of Science
+        start_date: "2021-08"
+        end_date: "2025-08"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "GPA: 3.91/4.0"
+          - "Coursework: Advanced VLSI Design (A), Computer Systems Architecture (A+), Statistical Signal Processing, Embedded ML (A)"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Tsinghua University
+        location: Beijing, China
+        url: https://www.tsinghua.edu.cn/en/
+        area: Integrated Circuit Engineering
+        degree: Bachelor & Master of Engineering
+        start_date: "2015-08"
+        end_date: "2021-06"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Coursework: Process of VLSI Fabrication & Equipment (A-), Semiconductor Devices, Digital & Analog IC Design"
+
+    Technical Skills:
+      - label: "Programming Languages & Tools"
+        details: "Verilog, Python, C++, Git, Bash"
+
+      - label: "Software"
+        details: "Virtuoso, ModelSim, Matlab, Cadence, Synopsys (Design Compiler, IC Compiler)"
+
+      - label: "Hardware"
+        details: "Agilent B1500A parameter analyzer (DC sweep), Cascade Summit 11000 probe station, Nextest Maverick II memory tester, Mixed Domain Oscilloscope, Soldering, BER Tester, Arista Switch, Programming board"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Infraeo Inc.
+        position: Embedded Systems Engineer
+        location: Round Rock, TX
+        start_date: "2026-01"
+        end_date: present
         highlights:
-          - Relativity
-          - Description 2.
+          - "Build and execute the qualification test suite for each module build — define test scope and pass/fail criteria, and verify measured device behavior against vendor characterization data and IEEE 802.3 / OIF-CEI electrical specifications."
+          - "Own the debug loop on BER and factory test data — identify failure modes and isolate root cause across silicon, firmware, and physical layer using BERT and oscilloscope measurements (eye diagrams, jitter, signal integrity); define corrective actions and trace them to verify effectiveness in outgoing-quality validation; reproduce and document anomalies for the silicon vendor and drive closure with vendor, hardware, and firmware teams."
+          - "Bring up and debug firmware and hardware across switch, BERT, and programming boards; build Python command-line tools that drive BERT and programming boards over USB and I2C, automating data acquisition, test execution, and configuration, and extending them into a hardware-in-the-loop regression framework."
+          - "Proposed and built SPELL (Spec-to-Executable via LLM), an LLM-driven auto-correction system for 200G to 1.6T copper and optical modules, implemented as a custom compiler that grounds every check in the authoritative CMIS specification and automatically corrects register-level anomalies such as EEPROM malprogramming and configuration mismatches."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Xperf Inc.
+        position: Software Engineer
+        location: Round Rock, TX
+        start_date: "2025-09"
+        end_date: "2025-12"
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+          - "Deployed a GPU observability platform (NVIDIA DCGM, Prometheus, Grafana) on GKE, monitoring utilization/memory/thermals across multi-tenant ML workloads with automated failure detection."
+          - "Migrated to a push-based telemetry architecture, cutting GPU failure-detection latency minutes→seconds; automated GPU VM provisioning on GCP (deployment time −40%); developed and versioned all code in a Git-based workflow."
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: "On-chip Layer-wise Regression to Compensate Array Non-idealities — RRAM Neuromorphic Chips"
+        summary: "Tsinghua LEMON Lab; first-author, DATE 2021"
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - "Device & array characterization: DC-sweep on an Agilent B1500A; continuous resistance-change characterization of a 1K-bit array (Cascade 1100 probe station, lead probe cards, Nextest Maverick2 tester); built a Python analog-RRAM model capturing measured non-idealities."
+          - "CIM method & hardware: layer-wise regression compensating array non-idealities (+10% ResNet-18 accuracy at 25% of the operations); implemented the data-input path on Xilinx Zynq + AXI in Verilog, and rewrote PE_update / Send_upper_data in C++ and the PE_switch_path block in Verilog."
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: "Speech Signal Processing & Statistical Data Analysis"
+        summary: "Rice University Digital Health Lab, Prof. Ashutosh Sabharwal"
+        highlights:
+          - "Drove data-science research on traumatic load and physiological markers in pregnancy; hosted data collection, audio annotation, and Python cleaning / feature extraction."
+          - "Reduced speaker-diarization error by 5–16% vs a Pyannote baseline at 75% scenario-classification accuracy (transformer-based multi-task model); ran multiple correspondence analysis relating social variables (education, occupation), physiological markers (sleep, HRV), and trauma scores (ACEs)."
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: "Si:P Doping Prediction for CMOS Devices (first-principles / DFT)"
+        summary: "Forming/ionization energy and channel strain across phosphorus-doping patterns for device-design trade-offs."
+
+      - name: "Digital Design"
+        highlights:
+          - "16-bit HSPICE multiplier (Booth + Wallace-tree)"
+          - "32-bit pipelined MIPS on FPGA"
+
+    Additional Information:
+      - label: "Publications & Patents"
+        details: "6 papers (first-author DATE 2021; IEEE MTT-S NEMO 2026 accepted; manufacturing-defect detection, Fundamental Research 2022); 3 Chinese patents and 1 U.S. patent"
+
+      - label: "Languages"
+        details: "English, Mandarin"
